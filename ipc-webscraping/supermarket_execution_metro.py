@@ -51,7 +51,7 @@ def generar_opts():
     # Seleccionar un proxy aleatorio
     proxy = random.choice(proxies)
     #opts.add_argument(f'--proxy-server={proxy}')
-    #opts.add_argument("--headless=new")
+    # opts.add_argument("--headless=new")
     opts.add_argument("--window-size=800,600")
     
     # Configuraciones adicionales de seguridad
